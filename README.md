@@ -1,4 +1,3 @@
-# singly-linklist
 #include<stdio.h>
 #include<stdlib.h>
 void main()
@@ -53,22 +52,4 @@ void main()
                            }
                  }
    }
-    
-						flag=1;
-						break;
-					}
-					pos=pos->next;
-				}
-				if (flag==0)
-					printf("Element not found");
-				else 
-					printf("Element Found"); 
-			} break;
-				
-			case 5 : {
-				printf("\nGood Bye\n");
-				exit(0);
-			}
-		}
-	}
-}
+     
